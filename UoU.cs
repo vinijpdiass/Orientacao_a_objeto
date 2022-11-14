@@ -54,6 +54,9 @@ public class HeroiAlianca:Heroi{
     public override void LancarMagia(){
         Console.WriteLine ("Força Rutilante!!!");
     }
+    public override void AtacarComArma(){
+        Console.WriteLine ("Espada Íntegra!!!!!");
+    }
 }//HeroiAlianca
 //11 e 12
 public class HeroiHorda:Heroi{
@@ -66,6 +69,9 @@ public class HeroiHorda:Heroi{
     }
     public override void LancarMagia(){
         Console.WriteLine ("Caminho de chamas!!!");
+    }
+    public override void AtacarComArma(){
+        Console.WriteLine ("Machado do berserker!!!!!");
     }
 }//HeroiHorda
  public class UoU{
@@ -88,6 +94,8 @@ public class HeroiHorda:Heroi{
       
       Console.WriteLine("{0} sem perder tempo lança uma magia", ali.getNome()); 
       ali.LancarMagia();
+      Console.WriteLine("{0} logo em seguida desfere um golpe com sua arma", ali.getNome()); 
+      ali.AtacarComArma();
       
       Console.WriteLine("\ne a batalha continua..."); 
       
@@ -109,6 +117,8 @@ public class HeroiHorda:Heroi{
       
       Console.WriteLine("{0} sem perder tempo lança uma magia", hor.getNome()); 
       hor.LancarMagia();
+      Console.WriteLine("{0} logo em seguida desfere um golpe com sua arma", hor.getNome()); 
+      hor.AtacarComArma();
       
       Console.WriteLine("\ne a batalha continua...");       
       
